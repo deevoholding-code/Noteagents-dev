@@ -1,0 +1,52 @@
+import { NotificationItem } from '../types';
+
+export const mockNotifications: NotificationItem[] = [
+  {
+    id: 'notif-1',
+    title: 'Mariana Costa comentou no seu Pull Request #243',
+    description: '“Excelente refatoração dos hooks de estado. Aprovado!”',
+    category: 'Pull Requests',
+    timestamp: 'há 10 minutos',
+    read: false,
+    link: '/pull-requests/pr-1',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'notif-2',
+    title: 'Nova issue atribuída a você #245',
+    description: 'Erro no pipeline de build: TypeScript typecheck failure',
+    category: 'Issues',
+    timestamp: 'há 1 hora',
+    read: false,
+    link: '/issues/issue-245',
+    avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'notif-3',
+    title: 'Pipeline falhou em feat/agents-ui',
+    description: 'A etapa de teste de integração falhou após 1m 45s.',
+    category: 'Deployments',
+    timestamp: 'há 2 horas',
+    read: false,
+    link: '/pipelines/pipe-2',
+  },
+  {
+    id: 'notif-4',
+    title: 'João Pereira mencionou você em uma discussão técnica',
+    description: '“@lucasalmeida você tem experiência com SSE em serverless?”',
+    category: 'Menções',
+    timestamp: 'há 4 horas',
+    read: true,
+    link: '/discussions',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'notif-5',
+    title: 'Deploy em produção concluído com sucesso (v0.3.0)',
+    description: 'Todas as 14 regiões edge foram sincronizadas em 1m 45s.',
+    category: 'Sistema',
+    timestamp: 'há 5 horas',
+    read: true,
+    link: '/deployments',
+  },
+];

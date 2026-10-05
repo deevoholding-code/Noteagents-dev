@@ -1,0 +1,6 @@
+{
+  "name": "NoteAgents",
+  "description": "Plataforma de engenharia de software assistida por IA para desenvolvimento, agentes, pipelines, observabilidade e colaboração open source.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
